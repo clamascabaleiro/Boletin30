@@ -17,9 +17,9 @@ public class Boletin30 {
     public static void main(String[] args) {
         
         ArrayList<SeleccionFutbol> selec=new ArrayList<>();
-        SeleccionFutbol Futbolista=new Futbolista(10,"Extremo Derecho",1,31,"Iago","Aspas");
-        SeleccionFutbol Entrenador=new Entrenador(1,2,54,"Fran","Escribá");
-        SeleccionFutbol Masajista=new Masajista("fisioterapeuta",6,3,52,"Juan José","Garcia Cota");
+        SeleccionFutbol Futbolista=new Futbolista(10,"Extremo Derecho",1,31,"Gareth","Bale");
+        SeleccionFutbol Entrenador=new Entrenador(1,2,54,"Zidedine","Zidane");
+        SeleccionFutbol Masajista=new Masajista("fisioterapeuta",6,3,52,"Pintus","Pintus");
         Futbolista.concentrarse();
         Entrenador.concentrarse();
         Masajista.concentrarse();
